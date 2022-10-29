@@ -1,0 +1,83 @@
+body{
+  background-color: #000;
+}
+
+#container, #setup{
+background-color: #fff;
+text-align: center;
+width: 400px;
+margin: auto;
+height: 350px;
+border-radius: 10px;
+font-size: 20px;
+line-height: 30px;
+font-weight: bold;
+font-family: sans-serif;
+}
+
+#text{
+padding: 30px;
+}
+
+#neste, #showSetupBtn{
+  background-color: #fff;
+  text-align: center;
+  width: 100px;
+  margin: auto;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 15px;
+  line-height: 50px;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+
+#neste:hover, #container:hover, #showSetupBtn:hover{
+  background-color: #eee;
+ cursor: pointer;
+}
+
+
+
+
+#setup{
+  background-color: #eee ;
+  display: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+  height: auto;
+  top: 20px;
+}
+
+#kryss{
+  color: white;
+  position: absolute;
+  right: 10px;
+  width: 30px;
+  margin-top: 10px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #F00;
+  border-radius: 10%;
+  text-align: center;
+  cursor: pointer;
+}
+
+#kryss:hover{
+  background-color: #D00;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently  supported by Chrome, Opera and Firefox */
+}
+
+div a img{
+   display: none;
+ }
+ /* gjør at watermark forsvinner */
